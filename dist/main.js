@@ -14278,7 +14278,7 @@ photo.delete = function(t) {
             !0 !== t && lychee.error(null, n, t)
         })
     },
-    1 === t.length ? (e.title = "Delete Photo", i.title = "Keep Photo", n = lychee.html(_templateObject27, s)) : (e.title = "Delete Photo", i.title = "Keep Photo", n = lychee.html(_templateObject28, t.length)),
+    1 === t.length ? (e.title = "Foto löschen", i.title = "Foto behalten", n = lychee.html(_templateObject27, s)) : (e.title = "Foto löschen", i.title = "Foto behalten", n = lychee.html(_templateObject28, t.length)),
     basicModal.show({
         body: n,
         buttons: {
